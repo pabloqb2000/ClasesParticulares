@@ -1,0 +1,108 @@
+body {
+    background-color: white;
+    color: rgb(49, 49, 49);
+}
+
+b {
+    color: black;
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+}
+
+.tense-title {
+    background-color: rgb(94, 82, 68);
+    color: white;
+    border-radius: 12px 12px 0px 0px;
+    padding: 6px 0px;
+    margin-left: 24px;
+    box-shadow: 4px 4px 8px rgb(94, 82, 68);
+}
+
+.tense-data {
+    background-color: rgb(252, 244, 234);
+    border-radius: 16px;
+    padding: 12px 24px;
+    margin-bottom: 24px;
+    box-shadow: 4px 4px 8px rgb(94, 82, 68);
+}
+
+.tense-data table {
+    width: 100%;
+}
+
+.tense-data .example td {
+    width: 25%;
+}
+
+.tense-data .examples {
+    margin: 2px 0px 6px;
+}
+
+.tense-data .my-card-footer {
+    margin: 0px 24px;
+    border-top: 1px solid rgb(94, 82, 68);
+}
+
+.tense-data th.persona {
+    border-bottom: 2px solid rgb(94, 82, 68);
+    margin: 4px 4px;
+}
+
+.tense-data .form {
+    font-size: 1.25rem;
+    padding-bottom: 12px;
+}
+
+.tense-data .examples td {
+    margin: 12px;
+    padding: 4px 12px;
+}
+
+
+/* particle colors */
+.infinitive {
+    color: rgb(0, 4, 218);
+    font-weight: bold;
+}
+
+.auxiliary {
+    color: rgb(218, 149, 0);
+    font-weight: bold;
+}
+
+.negation {
+    color: rgb(218, 0, 0);
+    font-weight: bold;
+}
+
+.ending {
+    color: rgb(218, 0, 218);
+    font-weight: bold;
+}
+
+.irregular-participle {
+    color: rgb(62, 218, 0);
+    font-weight: bold;
+}
+
+/* Printing */
+@media print {
+    .pagebreak { page-break-before: always; }
+
+    .print-hide {
+        display: none;
+    }
+
+    .print-no-padding {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    footer {
+        background-color: white !important;
+    }
+}
+

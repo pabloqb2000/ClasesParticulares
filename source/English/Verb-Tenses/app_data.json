@@ -1,0 +1,452 @@
+{
+  "data": [
+    {
+      "name": "Present Simple",
+      "signal words": [
+        "every day",
+        "sometimes",
+        "always",
+        "often",
+        "usually",
+        "seldom",
+        "never",
+        "first ... then"
+      ],
+      "use": [
+        "Algo que ocurre de forma repetida (Ej: Trabajo en un hospital)",
+        "Con qu\u00c3\u00a9 frecuencia ocurre algo (Ej: Hago deporte todos los d\u00c3\u00adas)",
+        "Algo que nunca ocurre (Ej: Yo no como pescado)",
+        "Una acci\u00c3\u00b3n que ocurre despu\u00c3\u00a9s de otra (en una lista de instrucciones, por ejemplo en una receta)",
+        "Hechos que son ciertos en general (Ej: El cielo es azul, La lluvia cae de las nubes)",
+        "Con verbos como gustar, odiar, creer, tener,...",
+        "Horarios, listas de tareas,...",
+        "[Zero conditional]"
+      ],
+      "form": [
+        "<span class=\"infinitive\">infinitive</span> (he/she/it) + <span class=\"ending\">-s</span>"
+      ],
+      "p1-r-pos": "I <span class=\"infinitive\">work</span>. ",
+      "p1-r-neg": "I <span class=\"auxiliary\">do</span><span class=\"negation\">n't</span><span class=\"infinitive\"> work</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Do</span> I <span class=\"infinitive\">work</span>?",
+      "p3-r-pos": "He <span class=\"infinitive\">work</span><span class=\"ending\">s</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">does</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Does</span> he <span class=\"infinitive\">work</span>?",
+      "p1-ir-pos": "I <span class=\"infinitive\">go</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">do</span><span class=\"negation\">n't</span><span class=\"infinitive\"> go</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Do</span> I <span class=\"infinitive\">go</span>?",
+      "p3-ir-pos": "He <span class=\"infinitive\">go</span><span class=\"ending\">es</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">does</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Does</span> he <span class=\"infinitive\">go</span>?"
+    },
+    {
+      "name": "Present Continuous",
+      "signal words": [
+        "now",
+        "at the moment",
+        "Look!",
+        "Listen!"
+      ],
+      "use": [
+        "Algo que est\u00c3\u00a1 ocurriendo en ese mismo momento.",
+        "Un plan o una cita que tienes para un futuro cercano."
+      ],
+      "form": [
+        "to <span class=\"auxiliary\">be (am/are/is)</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">-ing</span>"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'m</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I<span class=\"auxiliary\">'m</span> <span class=\"negation\">not</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ing</span>. ",
+      "p1-r-int": "<span class=\"auxiliary\">Am</span> I <span class=\"infinitive\"> wor</span>k<span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'s</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">is</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Is</span> he <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>? ",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'m</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I<span class=\"auxiliary\">'m</span> <span class=\"negation\">not</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Am</span> I <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'s</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">is</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Is</span> he <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Past Simple",
+      "signal words": [
+        "last week/month/...",
+        "2 days/weeks/... ago",
+        "in 1990",
+        "yesterday "
+      ],
+      "use": [
+        "Algo que ocurri\u00c3\u00b3 en el pasado, normalmente indicando cu\u00c3\u00a1ndo ocurri\u00c3\u00b3 (sin ninguna conexi\u00c3\u00b3n expl\u00c3\u00adcita con el presente)"
+      ],
+      "form": [
+        "regular: <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">-ed</span>",
+        "irregular: <span class=\"irregular-past\">2nd column of table of irregular verbs</span>"
+      ],
+      "p1-r-pos": "I <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">did</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>. ",
+      "p1-r-int": "<span class=\"auxiliary\">Did</span> I <span class=\"infinitive\">work</span>?",
+      "p3-r-pos": "He <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">did</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Did</span> he <span class=\"infinitive\">work</span>? ",
+      "p1-ir-pos": "I <span class=\"irregular-past\">went</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">did</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Did</span> I <span class=\"infinitive\">go</span>?",
+      "p3-ir-pos": "He <span class=\"irregular-past\">went</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">did</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Did</span> he <span class=\"infinitive\">go</span>?"
+    },
+    {
+      "name": "Past Continuous",
+      "signal words": [
+        "while",
+        "when (cuando aparece when y no es la primera palabra de una pregunta)"
+      ],
+      "use": [
+        "Algo que ocurri\u00c3\u00b3 entre medias de de otra acci\u00c3\u00b3n",
+        "Algo que estaba ocurriendo en el pasado y no sabes si sigue ocurriendo o no"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">was/were</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">-ing</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">was</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ing</span>. ",
+      "p1-r-neg": "I <span class=\"auxiliary\">was</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>. ",
+      "p1-r-int": "<span class=\"auxiliary\">Was</span> I <span class=\"infinitive\"> work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">was</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">was</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Was</span> he <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>? ",
+      "p1-ir-pos": "I <span class=\"auxiliary\">was</span> <span class=\"infinitive\"> go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">was</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Was</span> I <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>? ",
+      "p3-ir-pos": "He <span class=\"auxiliary\">was</span> <span class=\"infinitive\"> go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">was</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Was</span> he <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Present Perfect",
+      "signal words": [
+        "just",
+        "yet",
+        "never",
+        "ever",
+        "already",
+        "so far",
+        "up to now",
+        "since",
+        "for 5 days/weeks/months",
+        "recently"
+      ],
+      "use": [
+        "Algo que comenz\u00c3\u00b3 en el pasado y sigue ocurriendo en el presente",
+        "Algo que nunca ha pasado o que no ha pasado todav\u00c3\u00ada",
+        "Algo que ocurri\u00c3\u00b3 en el pasado y tiene una conexi\u00c3\u00b3n expl\u00c3\u00adcita con el presente"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">have/has</span> + <span class=\"irregular-participle\">past participle</span>*"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">have</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">have</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Have</span> I <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">has</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">has</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Has</span> he <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>? ",
+      "p1-ir-pos": "I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">have</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Have</span> I <span class=\"irregular-participle\">gone</span>? ",
+      "p3-ir-pos": "He <span class=\"ending\">has</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">has</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Has</span> he <span class=\"irregular-participle\">gone</span>?"
+    },
+    {
+      "name": "Present Perfect Continuous",
+      "signal words": [
+        "all day",
+        "the whole day",
+        "how long",
+        "since",
+        "for 5 days/weeks/months"
+      ],
+      "use": [
+        "Acci\u00c3\u00b3n que empez\u00c3\u00b3 en el pasado y justo acaba de terminar.",
+        "Indicar o preguntar durante cuanto tiempo ha estado ocurriendo algo.",
+        "<b>Enfasis: duraci\u00c3\u00b3n de la acci\u00c3\u00b3n</b>"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">have/has</span> + <span class=\"irregular-participle\">been</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">-ing</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">have</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Have</span> I <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">has</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">has</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Has</span> he <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">have</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Have</span> I <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">has</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">has</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Has</span> he <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Past Perfect (Simple)",
+      "signal words": [
+        "already",
+        "just",
+        "never"
+      ],
+      "use": [
+        "Una acci\u00c3\u00b3n que termin\u00c3\u00b3 antes de que empezara otra.",
+        "Algo que no hab\u00c3\u00ada ocurrido nunca o no hab\u00c3\u00ada ocurrido todav\u00c3\u00ada en un momento pasado."
+      ],
+      "form": [
+        "<span class=\"auxiliary\">had</span> + <span class=\"irregular-participle\">past participle</span>*"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">had</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Had</span> I <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">had</span> <span class=\"infinitive\"> work</span><span class=\"ending\">ed</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Had</span> he <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Had</span> I <span class=\"irregular-participle\">gone</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Had</span> he <span class=\"irregular-participle\">gone</span>?"
+    },
+    {
+      "name": "Past Perfect Continuous",
+      "signal words": [
+        "how long",
+        "since",
+        "for"
+      ],
+      "use": [
+        "Para decir/preguntar cu\u00c3\u00a1nto tiempo hab\u00c3\u00ada estado ocurriendo algo antes de un cierto momento en el pasado"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">had</span> + <span class=\"irregular-participle\">been</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">ing</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Had</span> I <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Had</span> he <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Had</span> I <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">had</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">had</span><span class=\"negation\">n't</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Had</span> he <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Future Simple (will)",
+      "signal words": [],
+      "use": [
+        "Predicciones sobre el futuro (hechos o cosas de las que estamos muy seguros).",
+        "Algo que se te ha ocurrido hacer mientras hablas, sin haberlo decidido antes.",
+        "Para hacer promesas, peticiones, ofertas,...",
+        "[First conditional]"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">will</span> + <span class=\"infinitive\">infinitive</span>"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"infinitive\">work</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Will</span> I <span class=\"infinitive\">work</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"infinitive\">work</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Will</span> he <span class=\"infinitive\">work</span>?",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"infinitive\">go</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Will</span> I <span class=\"infinitive\">go</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"infinitive\">go</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Will</span> he <span class=\"infinitive\">go</span>?"
+    },
+    {
+      "name": "Future Simple (going to)",
+      "signal words": [],
+      "use": [
+        "Algo que vas a hacer en el futuro y que ya hab\u00c3\u00adas decidido antes.",
+        "Una predicci\u00c3\u00b3n basada en algo que acabas de ver/oir/saber justo ahora.",
+        "Una predicci\u00c3\u00b3n basada en algo que crees/opinas."
+      ],
+      "form": [
+        "to <span class=\"auxiliary\">be (am/are/is)</span> + going to + <span class=\"infinitive\">infinitive</span>"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'m</span> going to <span class=\"infinitive\">work</span>.",
+      "p1-r-neg": "I<span class=\"auxiliary\">'m</span> <span class=\"negation\">not</span> going to <span class=\"infinitive\">work</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Am</span> I going to <span class=\"infinitive\">work</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'s</span> going to <span class=\"infinitive\">work</span>.",
+      "p3-r-neg": "He<span class=\"auxiliary\">'s</span> <span class=\"negation\">not</span> going to <span class=\"infinitive\">work</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Is</span> he going to <span class=\"infinitive\">work</span>?",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'m</span> going to <span class=\"infinitive\">go</span>.",
+      "p1-ir-neg": "I<span class=\"auxiliary\">'m</span> <span class=\"negation\">not</span> going to <span class=\"infinitive\">go</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Am</span> I going to <span class=\"infinitive\">go</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'s</span> going to <span class=\"infinitive\">go</span>.",
+      "p3-ir-neg": "He<span class=\"auxiliary\">'s</span> <span class=\"negation\">not</span> going to <span class=\"infinitive\">go</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Is</span> he going to <span class=\"infinitive\">go</span>?"
+    },
+    {
+      "name": "Future Continuous",
+      "signal words": [],
+      "use": [
+        "Algo que estar\u00c3\u00a1 ocurriendo en alg\u00c3\u00ban momento en el futuro."
+      ],
+      "form": [
+        "<span class=\"auxiliary\">will</span> + <span class=\"auxiliary\">be</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">ing</span>"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Future Perfect Simple",
+      "signal words": [],
+      "use": [
+        "Algo que habr\u00c3\u00a1 terminado en un momento del futuro."
+      ],
+      "form": [
+        "<span class=\"auxiliary\">will</span> + <span class=\"auxiliary\">have</span> + <span class=\"spalte3l\">past participle</span>*"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>?",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>?"
+    },
+    {
+      "name": "Future Perfect Continuous",
+      "signal words": [],
+      "use": [
+        "Algo que habr\u00c3\u00a1 terminado en un momento en el futuro y que habr\u00c3\u00a1 estado ocurrido durante un cierto periodo de tiempo.",
+        "<b>Enfasis: duraci\u00c3\u00b3n de esa acci\u00c3\u00b3n</b>."
+      ],
+      "form": [
+        "<span class=\"auxiliary\">will</span> + <span class=\"auxiliary\">have</span> + <span class=\"irregular-participle\">been</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">ing</span>"
+      ],
+      "p1-r-pos": "I<span class=\"auxiliary\">'ll have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> w<span class=\"infinitive\">ork</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Will</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He<span class=\"auxiliary\">'ll</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">w</span><b>o</b><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Will</span> he <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Conditional Simple",
+      "signal words": [],
+      "use": [
+        "Algo que puede que ocurra.",
+        "[Second conditional]"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">would</span> + <span class=\"infinitive\">infinitive</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">would</span> <span class=\"infinitive\"> work</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Would</span> I <span class=\"infinitive\">work</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">would</span> <span class=\"infinitive\"> work</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"infinitive\">work</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Would</span> he <span class=\"infinitive\">work</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">would</span> <span class=\"infinitive\">go</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Would</span> I <span class=\"infinitive\">go</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">would</span> <span class=\"infinitive\"> go</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"infinitive\">go</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Would</span> he <span class=\"infinitive\">go</span>?"
+    },
+    {
+      "name": "Conditional Continuous",
+      "signal words": [],
+      "use": [
+        "Algoq que puede que ocurra durante un tiempo.",
+        "Enfasis: duraci\u00c3\u00b3n de la acci\u00c3\u00b3n.",
+        "[Second conditional]"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">would</span> + <span class=\"auxiliary\">be</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">ing</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">would</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">would be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Would</span> he <span class=\"auxiliary\">be</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">would be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">would be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Would</span> he <span class=\"auxiliary\">be</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    },
+    {
+      "name": "Conditional Perfect",
+      "signal words": [],
+      "use": [
+        "Algo que podr\u00c3\u00ada haber pasado en el pasado (pero que ahora es demasiado tarde).",
+        "[Third conditional]"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">would</span> + <span class=\"auxiliary\">have</span> + <span class=\"irregular-participle\">past participle</span>*"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">would have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p1-r-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">would have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Would</span> he <span class=\"auxiliary\">have</span> <span class=\"infinitive\">work</span><span class=\"ending\">ed</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">gone</span>?"
+    },
+    {
+      "name": "Conditional Perfect Continuous",
+      "signal words": [],
+      "use": [
+        "Algo que podr\u00c3\u00ada haber pasado en el pasado (pero que ahora es demasiado tarde).",
+        "Enfasis: duraci\u00c3\u00b3n de la acci\u00c3\u00b3n.",
+        "[Third conditional]"
+      ],
+      "form": [
+        "<span class=\"auxiliary\">would</span> + <span class=\"auxiliary\">have</span> + <span class=\"irregular-participle\">been</span> + <span class=\"infinitive\">infinitive</span> + <span class=\"ending\">ing</span>"
+      ],
+      "p1-r-pos": "I <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>.",
+      "p1-r-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>. ",
+      "p1-r-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p3-r-pos": "He <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-r-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-r-int": "<span class=\"auxiliary\">Would</span> he <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">work</span><span class=\"ending\">ing</span>?",
+      "p1-ir-pos": "I <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-neg": "I <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p1-ir-int": "<span class=\"auxiliary\">Would</span> I <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?",
+      "p3-ir-pos": "He <span class=\"auxiliary\">would have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-neg": "He <span class=\"auxiliary\">would</span><span class=\"negation\">n't</span> <span class=\"auxiliary\">have</span> <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>.",
+      "p3-ir-int": "<span class=\"auxiliary\">Would</span> he <span class=\"auxiliary\"></span> have <span class=\"irregular-participle\">been</span> <span class=\"infinitive\">go</span><span class=\"ending\">ing</span>?"
+    }
+  ]
+}

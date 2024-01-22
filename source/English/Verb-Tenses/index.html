@@ -1,0 +1,103 @@
+{% extends 'templates/layout.html' %}
+
+{% block body %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="pt-5 print-no-padding">Tiempos verbales en ingl&eacute;s</h1>
+    </div>
+</div>
+<div class="row print-hide">
+    <div class="col-12">
+        <a href="https://www.englisch-hilfen.de/en/grammar/english_tenses.htm">[Referencia]</a> <a href="/English/Verb-Tenses/English-Verb-Tenses.pdf">[Pdf]</a>
+    </div>
+</div>
+{% for tense in app_data['data'] %}
+
+<div class="row pt-4">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-lg-6 col-8 tense-title text-center">
+                <h2>{{ tense['name'] }}</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 tense-data text-center">
+                <span class="form">
+                    {% for form in tense['form'] %}
+                        {{form | safe}}<br>
+                    {% endfor %}
+                </span>
+                <table class="examples">
+                    <thead>
+                        <tr>
+                            <th colspan="2" class="persona">1&ordf; persona</th>
+                            <th colspan="2" class="persona">3&ordf; persona</th>
+                        </tr>
+                    </thead>
+                    <tbody>    
+                        <tr class="example text-left">
+                            <td><span class="green">&#x2705;</span> {{ tense['p1-r-pos'] | safe }}</td>
+                            <td><span class="green">&#x2705;</span> {{ tense['p1-ir-pos'] | safe }}</td>
+                            <td><span class="green">&#x2705;</span> {{ tense['p3-r-pos'] | safe }}</td>
+                            <td><span class="green">&#x2705;</span> {{ tense['p3-ir-pos'] | safe }}</td>
+                        </tr>
+                        <tr class="example text-left">
+                            <td><span class="red">&#x274C;</span> {{ tense['p1-r-neg'] | safe }}</td>
+                            <td><span class="red">&#x274C;</span> {{ tense['p1-ir-neg'] | safe }}</td>
+                            <td><span class="red">&#x274C;</span> {{ tense['p3-r-neg'] | safe }}</td>
+                            <td><span class="red">&#x274C;</span> {{ tense['p3-ir-neg'] | safe }}</td>
+                        </tr>
+                        <tr class="example text-left">
+                            <td><span class="icon">&#x2754;</span> {{ tense['p1-r-int'] | safe }}</td>
+                            <td><span class="icon">&#x2754;</span> {{ tense['p1-ir-int'] | safe }}</td>
+                            <td><span class="icon">&#x2754;</span> {{ tense['p3-r-int'] | safe }}</td>
+                            <td><span class="icon">&#x2754;</span> {{ tense['p3-ir-int'] | safe }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="info">                    
+                    <table class="info">
+                        <tbody>
+                            <tr class="text-left">
+                                {% if tense['use'] | length > 4 %}
+                                <td class="align-text-top">
+                                    <ul>
+                                        {% for use in tense['use'][::2] %}
+                                        <li>{{ use | safe }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                <td class="align-text-top">
+                                    <ul>
+                                        {% for use in tense['use'][1::2] %}
+                                        <li>{{ use | safe }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                {% else %}
+                                <td class="">
+                                    <ul>
+                                        {% for use in tense['use']%}
+                                        <li>{{ use | safe }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                {% endif %}
+                            </tr> 
+                        </tbody>
+                    </table>
+                </div>
+                {% if tense['signal words'] | length > 0 %}
+                <div class="my-card-footer">                        
+                    <span class="">
+                        <b>Palabras indicadoras:</b><br><i>{{ ', '.join(tense['signal words']) | capitalize }}</i> 
+                    </span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}
